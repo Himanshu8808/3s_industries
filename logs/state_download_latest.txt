@@ -1,0 +1,50 @@
+Controller run: 20260527_074937
+Finished at: 2026-05-27T09:09:56+05:30
+Total states: 37  |  success: 36  |  failed: 1
+
+[OK] andaman_nicobar_island        files=  33     907.6s  2026-05-27T07:49:38+05:30 -> 2026-05-27T08:04:45+05:30
+[OK] andhra_pradesh                files= 255    2041.4s  2026-05-27T07:49:38+05:30 -> 2026-05-27T08:23:39+05:30
+[OK] arunachal_pradesh             files=  90    1210.4s  2026-05-27T07:49:38+05:30 -> 2026-05-27T08:09:48+05:30
+[OK] assam                         files= 117    1391.6s  2026-05-27T07:49:38+05:30 -> 2026-05-27T08:12:49+05:30
+[OK] bihar                         files= 150    1549.0s  2026-05-27T07:49:38+05:30 -> 2026-05-27T08:15:27+05:30
+[OK] chandigarh                    files=   6     100.3s  2026-05-27T07:49:38+05:30 -> 2026-05-27T07:51:18+05:30
+[OK] chhattisgarh                  files=  96    1252.3s  2026-05-27T07:49:38+05:30 -> 2026-05-27T08:10:30+05:30
+[OK] delhi                         files=  72     462.9s  2026-05-27T07:49:38+05:30 -> 2026-05-27T07:57:21+05:30
+[FAIL] download_india_combined       files=   0       0.0s  2026-05-27T07:51:18+05:30 -> 2026-05-27T07:51:18+05:30
+       error: AttributeError: module 'state_job_download_india_combined' has no attribute 'run_all_filter_downloads'
+Traceback (most recent call last):
+  File "R:\erikshaw-automation\controller.py", line 99, in _run_one_state
+    run_fn = getattr(mod, "run_downloads", mod.run_all_filter_downloads)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'state_job_download_india_combined' has no attribute 'run_all_filter_downloads'
+
+[OK] goa                           files=  42     224.3s  2026-05-27T07:51:18+05:30 -> 2026-05-27T07:55:02+05:30
+[OK] gujarat                       files= 114     602.3s  2026-05-27T07:55:02+05:30 -> 2026-05-27T08:05:05+05:30
+[OK] haryana                       files= 555    3037.9s  2026-05-27T07:57:21+05:30 -> 2026-05-27T08:47:59+05:30
+[OK] himachal_pradesh              files= 351    1870.1s  2026-05-27T08:04:45+05:30 -> 2026-05-27T08:35:55+05:30
+[OK] jammu_and_kashmir             files=  66     388.5s  2026-05-27T08:05:05+05:30 -> 2026-05-27T08:11:33+05:30
+[OK] jharkhand                     files=  96     530.2s  2026-05-27T08:09:48+05:30 -> 2026-05-27T08:18:38+05:30
+[OK] karnataka                     files= 207    1145.7s  2026-05-27T08:10:30+05:30 -> 2026-05-27T08:29:36+05:30
+[OK] kerala                        files= 264    1407.0s  2026-05-27T08:11:33+05:30 -> 2026-05-27T08:35:00+05:30
+[OK] ladakh                        files=  12      80.1s  2026-05-27T08:12:49+05:30 -> 2026-05-27T08:14:09+05:30
+[OK] lakshadweep                   files=  30     175.3s  2026-05-27T08:14:09+05:30 -> 2026-05-27T08:17:05+05:30
+[OK] madhya_pradesh                files= 162     840.7s  2026-05-27T08:15:27+05:30 -> 2026-05-27T08:29:27+05:30
+[OK] maharashtra                   files= 186    1047.0s  2026-05-27T08:17:05+05:30 -> 2026-05-27T08:34:32+05:30
+[OK] manipur                       files=  54     295.6s  2026-05-27T08:18:38+05:30 -> 2026-05-27T08:23:34+05:30
+[OK] meghalaya                     files=  45     254.7s  2026-05-27T08:23:34+05:30 -> 2026-05-27T08:27:49+05:30
+[OK] mizoram                       files=  39     208.5s  2026-05-27T08:23:39+05:30 -> 2026-05-27T08:27:08+05:30
+[OK] nagaland                      files=  30     182.9s  2026-05-27T08:27:08+05:30 -> 2026-05-27T08:30:11+05:30
+[OK] odisha                        files= 120     682.9s  2026-05-27T08:27:49+05:30 -> 2026-05-27T08:39:12+05:30
+[OK] puducherry                    files=  27     176.0s  2026-05-27T08:29:27+05:30 -> 2026-05-27T08:32:23+05:30
+[OK] punjab                        files= 291    1503.0s  2026-05-27T08:29:36+05:30 -> 2026-05-27T08:54:39+05:30
+[OK] rajasthan                     files= 432    2135.0s  2026-05-27T08:30:11+05:30 -> 2026-05-27T09:05:46+05:30
+[OK] sikkim                        files=  30     176.4s  2026-05-27T08:32:24+05:30 -> 2026-05-27T08:35:20+05:30
+[OK] tamil_nadu                    files= 447    2122.4s  2026-05-27T08:34:32+05:30 -> 2026-05-27T09:09:54+05:30
+[OK] telangana                     files= 174     918.0s  2026-05-27T08:35:00+05:30 -> 2026-05-27T08:50:18+05:30
+[OK] tripura                       files=  30     241.2s  2026-05-27T08:35:20+05:30 -> 2026-05-27T08:39:21+05:30
+[OK] ut_of_dnh_and_dd              files=  12      77.5s  2026-05-27T08:35:55+05:30 -> 2026-05-27T08:37:13+05:30
+[OK] uttar_pradesh                 files= 237    1202.6s  2026-05-27T08:37:13+05:30 -> 2026-05-27T08:57:16+05:30
+[OK] uttarakhand                   files=  66     457.5s  2026-05-27T08:39:12+05:30 -> 2026-05-27T08:46:49+05:30
+[OK] west_bengal                   files= 180     955.2s  2026-05-27T08:39:21+05:30 -> 2026-05-27T08:55:16+05:30
+
+CSV log: R:\erikshaw-automation\logs\state_download_history.csv
